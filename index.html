@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIMNERA</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---COMIENZA EL HEADER--->
+    <header>
+      <!---COMIENZA EL NAV--->
+      <div class="cointainer">
+        <div class="row">
+          <button class="nav-toggle" aria-label="abrir navegacion">
+            <span class="hamburger"></span>
+          </button>
+          <a href="index.html">
+            <img src="./img/logo.png" alt="Logo" class="logo"
+          /></a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/horarios.html"
+                  >Clases y Horarios</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/inscribite.html"
+                  ><strong> ¡Inscribite ya!</strong></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero__container">
+        <div class="hero__image">
+          <h1 class="hero__text">UNA NUEVA ERA EN GIMNASIOS</h1>
+          <div><button class="hero__button">Asociate!</button></div>
+        </div>
+      </section>
+
+      <!-- TABLA PRECIOS -->
+      <section id="price">
+        <div class="price__box">
+          <div class="price__header">
+            <h3>Básico</h3>
+          </div>
+          <div class="price__box--basico">
+            <h3>$2999 x mes</h3>
+          </div>
+
+          <div class="price__description">
+            <p>Acceso a sala de musculación</p>
+            <p>Característica 2</p>
+            <p>Característica 3</p>
+          </div>
+
+          <div class="price__button">
+            <a>Comprar</a>
+          </div>
+        </div>
+
+        <section class="price__box">
+          <div class="price__header">
+            <h3>Premium</h3>
+          </div>
+          <div class="price__box--premium">
+            <h3>$3999 x mes</h3>
+          </div>
+
+          <div class="price__description">
+            <p>Acceso a sala de musculación</p>
+            <p>Acceso a clases</p>
+            <p>Característica 3</p>
+          </div>
+
+          <div class="price__button">
+            <a>Comprar</a>
+          </div>
+        </section>
+
+        <section class="container">
+          <h2>Como llegar:</h2>
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53570.71396679973!2d-60.71793361040331!3d-32.94653079078243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab15def14419%3A0x97324161fb3ed066!2sCentro%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1673278354832!5m2!1ses-419!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="maps"
+            ></iframe>
+          </div>
+          <p>Dirección: ....</p>
+        </section>
+
+        <div>
+          <h2>Sede Fisherton</h2>
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53585.34169827241!2d-60.82484379436295!3d-32.92238264850604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b65291b5cf9779%3A0x4667768bb8a5053e!2sFisherton%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1673720200495!5m2!1ses-419!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <p>Dirección: ....</p>
+        </div>
+      </section>
+    </main>
+
+    <!---COMIENZA EL FOOTER--->
+    <footer>
+      <div>Seguinos en nuestras redes</div>
+
+      <div class="footer-sm">
+        <a class="footer-sm" href="https://www.instagram.com">
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a class="footer-sm" href="https://www.facebook.com">
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a class="footer-sm" href="https://www.twitter.com">
+          <i class="fa-brands fa-twitter"></i
+        ></a>
+        <a class="footer-sm" href="https://www.youtube.com">
+          <i class="fa-brands fa-youtube"></i
+        ></a>
+        <a class="footer-sm" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <div>Copyright</div>
+    </footer>
+  </body>
+</html>
